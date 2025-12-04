@@ -1,4 +1,4 @@
-# NoSQL Lab - Tienda Online (MongoDB + Redis)
+# Tienda Online Daniel Mahecha Ficha: 3203084
 
 **Caso de uso:** Tienda online con catálogo de productos, usuarios, pedidos y funcionalidades en tiempo real (ranking de vistas, stock en memoria, sesiones, colas de órdenes).
 
