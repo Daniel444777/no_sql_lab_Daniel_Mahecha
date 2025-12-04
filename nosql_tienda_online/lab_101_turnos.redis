@@ -1,0 +1,7 @@
+# lab_101_turnos.redis - ejemplo de comandos redis para turnos
+# incrementar contador
+INCR turn_counter
+# push a queue
+LPUSH turns_queue "{"user":"juan","service":"cajero"}"
+# set session temporales
+SET session:user:juan "{\"status\":\"waiting\"}" EX 600

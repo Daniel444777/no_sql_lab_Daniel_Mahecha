@@ -1,0 +1,7 @@
+// lab_101_turnos.mongodb - ejemplo de inserciones para laboratorio de turnos
+use tienda_online
+
+db.turns.insertMany([
+  { user: "juan", service: "cajero", created_at: new Date(), status: "waiting" },
+  { user: "maria", service: "soporte", created_at: new Date(), status: "waiting" }
+])
